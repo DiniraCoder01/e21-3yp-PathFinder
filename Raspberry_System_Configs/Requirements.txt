@@ -1,0 +1,30 @@
+# Pathfinder Raspberry Pi project - modules/packages used so far
+# Bookworm Lite / headless setup
+# Install methods may be apt or pip depending on your environment.
+
+# Python modules used directly in code
+ultralytics
+picamera2
+opencv-python
+Flask
+gpiozero
+
+# Usually built-in Python standard library modules already available
+# signal
+# time
+# threading
+# subprocess
+# os
+
+# Notes:
+# 1. On Raspberry Pi OS Bookworm, Picamera2 is usually installed with:
+#    sudo apt install python3-picamera2
+# 2. OpenCV is usually installed with:
+#    sudo apt install python3-opencv
+# 3. Flask can be installed with either:
+#    sudo apt install python3-flask
+#    or pip install flask
+# 4. gpiozero is usually installed with:
+#    sudo apt install python3-gpiozero
+# 5. YOLOv8 is usually installed with:
+#    pip install ultralytics
