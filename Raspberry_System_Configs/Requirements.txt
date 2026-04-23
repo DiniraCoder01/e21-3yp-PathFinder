@@ -9,6 +9,19 @@ opencv-python
 Flask
 gpiozero
 
+# How to check the sos functionality
+cd /home/pathfinder/pathfinder
+source venv/bin/activate
+
+# Send SOS
+python scripts/send_sos.py
+
+# Reset SOS
+python scripts/reset_sos.py
+
+# Interactive
+python scripts/manual_test.py
+
 # Usually built-in Python standard library modules already available
 # signal
 # time
